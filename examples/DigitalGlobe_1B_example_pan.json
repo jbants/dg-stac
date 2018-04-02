@@ -53,11 +53,11 @@
     },
     {
       "rel": "collection",
-      "href": "https://s3.amazonaws.com/digitalglobe-static-catalog/collections/dg_worldview02_LV1B_PAN.json"
+      "href": "https://s3.amazonaws.com/digitalglobe-static-catalog/collections/dg_worldview02_LV1B.json"
     }
   ],
   "assets": {
-    "image": {
+    "panchromatic_image": {
       "href": "https://15NOV09180446-P1BS-056823192010_01_P002.TIF"
     },
     "imd": {

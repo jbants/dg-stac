@@ -52,10 +52,16 @@
       "gsd": 2.047,
       "center_wavelength": 949.0,
       "full_width_half_maximum": 187.0
+    },
+    "pan": {
+     "common_name": "pan",
+        "gsd": 0.512,
+        "center_wavelength": 627.0,
+        "full_width_half_maximum": 361.0
     }
   },
   "assets": {
-    "image": {
+    "multispectral_image": {
       "name": "geotiff image",
       "description": "the radiometrically corrected multispectral image for the scene",
       "type": "geotiff",
@@ -69,7 +75,16 @@
         "nir1",
         "nir2"
       ],
-      "required": true
+      "required": false
+    },
+    "panchromatic_image": {
+      "name": "geotiff image",
+      "description": "the radiometrically corrected multispectral image for the scene",
+      "type": "geotiff",
+      "eo:bands": [
+        "pan"
+      ],
+      "required": false
     },
     "imd": {
       "name": "image metadata",
