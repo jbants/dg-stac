@@ -8,56 +8,56 @@
     "coastal": {
       "common_name": "coastal",
       "gsd": 2.047,
-      "center_wavelength": 427.0,
-      "full_width_half_maximum": 62.0
+      "center_wavelength": 0.427,
+      "full_width_half_maximum": 0.062
     },
     "blue": {
       "common_name": "blue",
       "gsd": 2.047,
-      "center_wavelength": 478.0,
-      "full_width_half_maximum": 73.0
+      "center_wavelength": 0.478,
+      "full_width_half_maximum": 0.073
     },
     "green": {
       "common_name": "green",
       "gsd": 2.047,
-      "center_wavelength": 546.0,
-      "full_width_half_maximum": 80.0
+      "center_wavelength": 0.546,
+      "full_width_half_maximum": 0.080
     },
     "yellow": {
       "common_name": "yellow",
       "gsd": 2.047,
-      "center_wavelength": 608.0,
-      "full_width_half_maximum": 48.0
+      "center_wavelength": 0.608,
+      "full_width_half_maximum": 0.048
     },
     "red": {
       "common_name": "red",
       "gsd": 2.047,
-      "center_wavelength": 659.0,
-      "full_width_half_maximum": 70.0
+      "center_wavelength": 0.659,
+      "full_width_half_maximum": 0.070
     },
     "rededge": {
       "common_name": "rededge",
       "gsd": 2.047,
-      "center_wavelength": 724.0,
-      "full_width_half_maximum": 50.0
+      "center_wavelength": 0.724,
+      "full_width_half_maximum": 0.050
     },
     "nir1": {
       "common_name": "nir1",
       "gsd": 2.047,
-      "center_wavelength": 833.0,
-      "full_width_half_maximum": 136.0
+      "center_wavelength": 0.833,
+      "full_width_half_maximum": 0.136
     },
     "nir2": {
       "common_name": "nir2",
       "gsd": 2.047,
-      "center_wavelength": 949.0,
-      "full_width_half_maximum": 187.0
+      "center_wavelength": 0.949,
+      "full_width_half_maximum": 0.187
     },
     "pan": {
      "common_name": "pan",
         "gsd": 0.512,
-        "center_wavelength": 627.0,
-        "full_width_half_maximum": 361.0
+        "center_wavelength": 0.627,
+        "full_width_half_maximum": 0.361
     }
   },
   "assets": {
