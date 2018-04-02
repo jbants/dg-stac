@@ -1,0 +1,74 @@
+{
+  "name": "DG_WORLDVIEW02_LV1B_PAN",
+  "platform": "WORLDVIEW02",
+  "sensor": "panchromatic sensor",
+  "dg:productLevel": "LV1B",
+  "dg:product": "WORLDVIEW02_LV1B",
+  "eo:bands": {
+    "pan": {
+     "common_name": "pan",
+        "gsd": 0.512,
+        "center_wavelength": 627.0,
+        "full_width_half_maximum": 361.0
+    }
+  },
+  "assets": {
+    "image": {
+      "name": "geotiff image",
+      "description": "the radiometrically corrected pan image for the scene",
+      "type": "geotiff",
+      "eo:bands": [
+        "pan"
+      ],
+      "required": true
+    },
+    "imd": {
+      "name": "image metadata",
+      "description": "The image metadata for the 'image' asset in imd format",
+      "type": "imd",
+      "required": true
+    },
+    "imd_xml": {
+      "name": "image metadata",
+      "description": "The image metadata for the 'image' asset in xml format",
+      "type": "xml",
+      "required": true
+    },
+    "til": {
+      "name": "til",
+      "description": "The til virtual raster file",
+      "type": "til",
+      "required": true
+    },
+    "att": {
+      "name": "attitude file",
+      "description": "The attitude file for the satellite at collection time",
+      "type": "att",
+      "required": true
+    },
+    "eph": {
+      "name": "ephemeral data",
+      "description": "the ephemeral file for the collection",
+      "type": "eph",
+      "required": true
+    },
+    "geo": {
+      "name": "geospatial data",
+      "description": "the aproximate geospatial metadata",
+      "type": "geo",
+      "required": true
+    },
+    "rpb": {
+      "name": "rational polynomial metadata",
+      "description": "the RPC coordinates for the image",
+      "type": "rpb",
+      "required": true
+    },
+    "thumbnail": {
+      "name": "thumbnail",
+      "description": "the thumbnail representation of the image",
+      "type": "jpeg",
+      "required": true
+    }
+  }
+}
